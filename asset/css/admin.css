@@ -1,0 +1,185 @@
+.google-signin {
+    background-image: url("../image/btn_google_signin.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 59.5px;
+    display: inline-block;
+}
+
+.muzaara-woopf-new label {
+    display: block;
+}
+
+.muzaara-woopf-new .form-field {
+    margin-bottom: 10px;
+}
+
+.muzaara-woopf-new input {
+    width: auto !important;
+}
+
+.muzaara-woopf-new {
+    width: 40%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.muzaara-woopf-new.no-mg {
+    margin: 0;
+}
+
+ul.muzaara_woopf_google_cat {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1;
+    max-height: 150px;
+    overflow-y: scroll;
+    font-size: small;
+    transition: background-color 5ms;
+}
+
+ul.muzaara_woopf_google_cat li {
+    cursor: pointer;
+    margin: 0;
+}
+
+ul.muzaara_woopf_google_cat li:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px 0px #eee;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.muzaara-woopf-section {
+    margin-bottom: 75px;
+}
+
+.muzaara-woopf-section table {
+    margin-bottom: 10px;
+}
+
+.muzaara-woopf-save {
+    text-align: center;
+}
+
+.muzaara-woopf-save button {
+    font-size: 1.3rem !important;
+}
+
+/* .muzaara-woopf-summary {
+   
+} */
+
+.muzaara-woopf-summary p {
+    font-size: 1.2rem;
+}
+
+.muzaara-woopf-product-types {
+    list-style: none;
+}
+
+.muzaara-woopf-product-types li {
+    display: inline-block;
+    background-color: #e1e1e1;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-size: .9em;
+    margin-right: 5px;
+    transition: background-color .5s, color .5s;
+    cursor: pointer;
+    position: relative;
+}
+
+.muzaara-woopf-product-types li.active {
+    background-color: #ccc;
+    padding-left: 5px;
+}
+
+.muzaara-woopf-product-types li.active::before {
+    content: "\f147";
+    display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'dashicons';
+    vertical-align: top;
+    color: #fff;
+    font-size: 1.5em;
+    color: rgba(70, 180, 80, 1);
+}
+
+.muzaara-woopf-product-types li:not(.active):hover {
+    background-color: #ccc;
+    transition: background-color .5s, color .5s;
+}
+
+.muzaara-woopf-create-complete {
+    margin: auto;
+    width: 50%;
+    margin-top: 20%;
+}
+
+.muzaara-woopf-channel-status::before {
+    content: "\f159";
+    font-family: "dashicons";
+    color: #DC3232;
+    font-size: 1.5em;
+    transition: color 1s;
+}
+
+.muzaara-woopf-channel-status.active::before {
+    color: rgba(70, 180, 80, 1);
+    transition: color 1s;
+}
+
+.muzaara-woopf-channel-status.running::before {
+    color: #ffb900;
+    transition: color 1s;
+}
+
+.muzaara-woopf-post-type {
+    display: inline-block;
+    padding: 3px 7px;
+    background-color: #eee;
+    margin-right: 3px;
+    font-size: .8em;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+
+.shopbot-ads-msg {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.05);
+    padding:  15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 1.3em;
+    line-height: 200%;
+    text-align: center;
+}
+
+.shopbot-ads-btn {
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #FF7052;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ff7052;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 10px 30px -8px rgba(0,0,0,0.16);
+    padding: 15px 30px;
+    display: inline-block;
+}
